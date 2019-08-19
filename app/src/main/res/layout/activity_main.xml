@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp">
+
+        <ImageView
+            android:id="@+id/img_Gojek"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/gojek" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/Btn_GoFood"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="20dp"
+                app:srcCompat="@drawable/menu_gofood" />
+
+            <ImageView
+                android:id="@+id/Btn_GoMart"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/menu_gomart" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/Btn_GoSend"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="60dp"
+                app:srcCompat="@drawable/menu_gosend" />
+
+            <ImageView
+                android:id="@+id/Btn_GoRide"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/menu_goride" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
