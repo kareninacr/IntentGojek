@@ -22,9 +22,7 @@
         android:layout_marginBottom="16dp"
         android:gravity="center_horizontal"
         android:layout_below="@+id/mangGojek"
-        android:text="TextView"
-        android:textSize="25dp"
-        android:textStyle="bold"/>
+        android:text="Nama" />
 
     <TextView
         android:id="@+id/tv2"
@@ -33,7 +31,7 @@
         android:layout_marginBottom="16dp"
         android:gravity="center_horizontal"
         android:layout_below="@+id/tv1"
-        android:text="TextView" />
+        android:text="Alamat" />
 
     <TextView
         android:id="@+id/tv3"
@@ -41,6 +39,14 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:layout_below="@+id/tv2"
-        android:text="TextView" />
+        android:layout_marginBottom="10dp"
+        android:text="Pesanan" />
+
+    <Button
+        android:id="@+id/btn_batal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Batal"
+        android:layout_below="@id/tv3" />
 
 </RelativeLayout>
